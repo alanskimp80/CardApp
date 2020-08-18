@@ -17,7 +17,9 @@ class Data {
     
     private init()
     {
-        print("Singleton initialized")
+        print("Data Model Initialised")
+        
+        //Initialize with some sample data:
         title = ["A Sample Title"]
         description = ["A Sample Description in the body area."]
     }

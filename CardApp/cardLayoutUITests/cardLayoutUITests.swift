@@ -29,8 +29,18 @@ class cardLayoutUITests: XCTestCase {
     }
     
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        // Use recording to get started writing UI tests
+        let app = XCUIApplication()
+        app.buttons["Add content"].tap()
+        app.textFields["Title"].tap()
+        
+        let textView = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .textView).element
+        textView.tap()
+        textView.tap()
+        app.buttons["Upload"].tap()
+        app.buttons["Back"].tap()
+        
+    
     }
     
 }
