@@ -46,9 +46,9 @@ class UploadDataViewController: UIViewController {
     
     func alert() {
         
-        let alert = UIAlertController(title: "Alert", message: "Please enter a title and description.", preferredStyle: .alert)
+        let alert = UIAlertController(title: "oops!", message: "please enter a title and description.", preferredStyle: .alert)
 
-        alert.addAction(UIAlertAction(title: "Got it!", style: .default, handler: nil))
+        alert.addAction(UIAlertAction(title: "got it!", style: .default, handler: nil))
 
         self.present(alert, animated: true)
         
