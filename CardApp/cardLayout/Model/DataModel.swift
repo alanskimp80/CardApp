@@ -17,11 +17,11 @@ class DataModel {
     
     private init()
     {
-        print("Data Model Initialised")
+        print("Data Model Initialized...")
         
         //Initialize with some sample data:
-        title = ["A Sample Title"]
-        description = ["A Sample Description in the body area."]
+        title = ["Acer"]
+        description = ["Established in 1976, Acer is a hardware + software + services company dedicated to the research, design, marketing, sale, and support of innovative products that enhance lives."]
     }
     
 }
