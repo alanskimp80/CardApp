@@ -29,7 +29,6 @@ class UploadDataViewController: UIViewController {
         titleLabel.resignFirstResponder()
         descLabel.resignFirstResponder()
         
-        
     }
     
     
@@ -57,7 +56,7 @@ class UploadDataViewController: UIViewController {
     
     func addData() {
         
-        //This adds data to the 'temporary api':
+        //This adds data to the 'temporary-api':
         Data.sharedInstance.title.append(titleLabel.text!)
         Data.sharedInstance.description.append(descLabel.text!)
         
