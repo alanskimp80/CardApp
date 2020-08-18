@@ -2,8 +2,8 @@
 //  UploadDataViewController.swift
 //  cardLayout
 //
-//  Created by A. Mallik on 18/08/2020.
-//  Copyright © 2020 Riley Norris. All rights reserved.
+//  Created by Anan K. Mallik on 18/08/2020.
+//  Copyright © 2020 Anan K. Mallik. All rights reserved.
 //
 
 import UIKit

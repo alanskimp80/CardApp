@@ -2,7 +2,7 @@
 //  Data.swift
 //  cardLayout
 //
-//  Created by A. Mallik on 18/08/2020.
+//  Created by Anan K. Mallik on 18/08/2020.
 //  Copyright © 2020 Anan K. Mallik. All rights reserved.
 //
 
