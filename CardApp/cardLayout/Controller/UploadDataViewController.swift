@@ -18,7 +18,13 @@ class UploadDataViewController: UIViewController {
     
     @IBAction func uploadData(_ sender: Any) {
         
-        addData()
+        if (titleLabel.text == "" || descLabel.text == "") {
+            alert()
+        }
+        else {
+            
+            addData()
+        }
         
         titleLabel.resignFirstResponder()
         descLabel.resignFirstResponder()
@@ -36,6 +42,16 @@ class UploadDataViewController: UIViewController {
     
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    func alert() {
+        
+        let alert = UIAlertController(title: "Alert", message: "Please enter a title and description.", preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "Got it!", style: .default, handler: nil))
+
+        self.present(alert, animated: true)
+        
     }
     
     
