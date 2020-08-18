@@ -9,9 +9,9 @@
 import Foundation
 
 //Temporary API/DataBase to hold Collection of Card Info:
-class Data {
+class DataModel {
     
-    static let sharedInstance = Data()
+    static let sharedInstance = DataModel()
     var title : [String]
     var description : [String]
     

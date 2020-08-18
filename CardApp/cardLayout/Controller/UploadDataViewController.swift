@@ -57,8 +57,8 @@ class UploadDataViewController: UIViewController {
     func addData() {
         
         //This adds data to the 'temporary-api':
-        Data.sharedInstance.title.append(titleLabel.text!)
-        Data.sharedInstance.description.append(descLabel.text!)
+        DataModel.sharedInstance.title.append(titleLabel.text!)
+        DataModel.sharedInstance.description.append(descLabel.text!)
         
     }
     
