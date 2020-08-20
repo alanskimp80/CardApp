@@ -27,7 +27,7 @@ class cardLayoutTests: XCTestCase {
         XCTAssertEqual(DataModel.sharedInstance.title.count, 1)
         XCTAssertEqual(DataModel.sharedInstance.description.count, 1)
         
-        XCTAssert(true, "All Test Have Passed.")
+        XCTAssert(true, "All Tests Have Passed.")
         
     }
     

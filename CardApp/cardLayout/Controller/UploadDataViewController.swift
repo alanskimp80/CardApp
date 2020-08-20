@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class UploadDataViewController: UIViewController {
     
@@ -59,6 +60,8 @@ class UploadDataViewController: UIViewController {
         //This adds data to the 'temporary-api':
         DataModel.sharedInstance.title.append(titleLabel.text!)
         DataModel.sharedInstance.description.append(descLabel.text!)
+        
+        
         
     }
     
